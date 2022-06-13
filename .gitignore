@@ -1,0 +1,73 @@
+.DS_Store
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage
+
+build/
+junit.xml
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# TypeScript output
+dist
+
+# Azure Functions artifacts
+bin
+obj
+appsettings.json
+local.settings.json
+
+# IDE settings
+.vscode/*
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Testing with Jest
+globalConfig.json
+
+# Azurite mock blob storage
+docker/azure-function-app/azurite/*
+!docker/azure-function-app/azurite/.gitkeep
+
+# Build reports
+build-analysis.html
+
+# Mongo Playground scripts
+*.mongodb
